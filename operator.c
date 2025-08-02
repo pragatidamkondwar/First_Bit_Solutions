@@ -1,0 +1,42 @@
+void main()
+{
+	int no1= 10, no2=20, sum;
+	char operator='+';
+	if(operator=='+')
+	{
+		sum=no1+no2;
+		printf("addition%d",sum);
+	}
+	else
+	{
+		if(operator=='-')
+		{
+			sum=no1-no2;
+			printf("subtraction%d",sum);
+		}
+		else
+		{
+			if(operator=='*')
+			{
+				sum=no1*no2;
+				printf("Multiplication%d",sum);
+			}
+			else
+			{
+				if(operator=='/')
+				{
+					sum=no1/no2;
+					printf("Division%d",sum);
+				}
+				else
+				{
+					if(operator=='%')
+					{
+						sum=no1%no2;
+						printf("Mode%d",sum);
+					}
+				}
+			}
+		}
+	}
+}
